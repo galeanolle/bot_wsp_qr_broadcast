@@ -1,0 +1,22 @@
+{
+  "name": "bm.bot_wsp_qr_broadcast",
+  "version": "1.0.0",
+  "description": "bloqmayus bot whatsapp read qr, get phone number, set message text and send broadcast",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/galeanolle/bot_wsp_qr_broadcast.git"
+  },
+  "author": "galeanolle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galeanolle/bot_wsp_qr_broadcast/issues"
+  },
+  "homepage": "https://github.com/galeanolle/bot_wsp_qr_broadcast#readme",
+  "dependencies": {
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
