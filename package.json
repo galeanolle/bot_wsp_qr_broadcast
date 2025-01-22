@@ -4,7 +4,8 @@
   "description": "bloqmayus bot whatsapp read qr, get phone number, set message text and send broadcast",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "node app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
