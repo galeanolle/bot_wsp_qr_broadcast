@@ -7,10 +7,6 @@
     "test": "node app.js",
     "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/galeanolle/bot_wsp_qr_broadcast.git"
-  },
   "author": "galeanolle",
   "license": "ISC",
   "bugs": {

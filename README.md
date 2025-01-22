@@ -10,3 +10,4 @@ bot whatsapp read qr, get phone number list and send broadcast message
 7. Inicar envio de mensaje
 
 
+-
