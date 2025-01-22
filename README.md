@@ -8,3 +8,5 @@ bot whatsapp read qr, get phone number list and send broadcast message
 5. obtener QR
 6. chequear WSP READY
 7. Inicar envio de mensaje
+
+
