@@ -33,7 +33,9 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-app.get('/send', function(req, res) {
+app.get('/send', async (req, res) => {
+  console.log('Send');
+  res.send('<h1>SEND</h1>')
   init();
 });
 
