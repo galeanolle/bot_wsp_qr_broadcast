@@ -58,34 +58,13 @@ app.get('/get-qr', async (req, res) => {
 var phones = [
 
 '+5491160569880',
-'+5491160569880',
-'+5491160569880',
 
 ];
 
 var promotionalMsg = "";
-promotionalMsg += "Hola, cómo estás?\n\n";
-promotionalMsg += "Aún no tenés tus *GORRAS* y *REMERAS* con TU LOGO?\n";
-promotionalMsg += "Somos de *UNIFORMES AUSTRAL* y te ayudamos a producirlas!\n\n";
-promotionalMsg += "🔸 *Envío sin cargo* a CABA y Alrededores\n";
-promotionalMsg += "🔸 *PACK* Precios x cantidad\n";
-promotionalMsg += "         x6 remera+gorra a $20999 c/pack\n";
-promotionalMsg += "         x12 remera+gorra a $19999 c/pack\n";
-promotionalMsg += "         x24 remera+gorra a $18999 c/pack\n";
-promotionalMsg += "🔸 *GORRAS* Precios x cantidad\n";
-promotionalMsg += "         x6 gorras a $7650 c/u\n";
-promotionalMsg += "         x12 gorras a $6125 c/u\n";
-promotionalMsg += "         x24 gorras a $5100 c/u\n";
-promotionalMsg += "🔸 *REMERAS* Precios x cantidad\n";
-promotionalMsg += "         x6 remeras a $14999 c/u\n";
-promotionalMsg += "         x12 remeras a $12999 c/u\n";
-promotionalMsg += "         x24 remeras a $12499 c/u\n";
-promotionalMsg += "🔸Entrega de 5 a 7 días hábiles 🕑\n";
-promotionalMsg += "🔸Nos encontramos en Paraná 6388, Loma Hermosa, San Martin, Provincia de Buenos Aires. (CUIT: 27-24823910-2)\n\n";
-promotionalMsg += "👉Seguínos en https://instagram.com/uniformesaustral \n";
-promotionalMsg += "(Proveedores oficiales de YPF y FULL)\n\n";
-promotionalMsg += "🔺Si no quieres recibir más información sobre esta promoción, responde NO GRACIAS\n";
-
+promotionalMsg += "Hola *MAGUS BARBERIA*, cómo estás?\n\n";
+promotionalMsg += "Te envio un mensaje de prueba desde nuestro 🤖 BOT WhatsAPP!\n\n";
+promotionalMsg += "👉La vinculacion de tu dispositivo ha sido exitosa";
 
 async function sendMessage(number,msg) {
 
@@ -93,7 +72,7 @@ async function sendMessage(number,msg) {
  
   console.log(chatId);
  
-  const media = MessageMedia.fromFilePath('./image.png');
+  const media = MessageMedia.fromFilePath('./bot.jpg');
 
   client.sendMessage(chatId, media, { caption: msg });
 
