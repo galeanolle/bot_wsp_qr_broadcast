@@ -33,6 +33,10 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/index.html'));
 });
 
+app.get('/send', function(req, res) {
+  init();
+});
+
 app.get('/get-qr', async (req, res) => {
   try {
   	if(qrstring!=''){
@@ -98,7 +102,7 @@ async function init() {
   for (var i = 0; i < phones.length; i++) {
     console.log(i,phones[i]);
     sendMessage(phones[i],promotionalMsg)
-    await sleep(15000);
+    await sleep(5000);
   }
 }
 
